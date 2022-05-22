@@ -1,0 +1,29 @@
+{
+  "name": "rotary-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "format": "prettier index.ts --write",
+    "lint": "eslint index.ts --fix",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "Zachary Dodge <zacharysdodge@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "robotjs": "^0.6.0",
+    "serialport": "^10.4.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.16.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}
